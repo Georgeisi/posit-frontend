@@ -1,38 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p,a,button {
+  font-family: "Harmattan", sans-ser !important;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form input:focus {
+  outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+form textarea:focus {
+  outline: none;
+}
+.hero-section{
+  background-image: url('../src/assests/Images/Rectangle\ 3.png');
+  background-repeat: no-repeat;
+  background-size: 160% 100%;
+  padding: 50px 0;
+}
+.hero-section p{
+  width: 90%;
+  max-width: 480px;
+  line-height: 30px;
+}
+@media(min-width:425px){
+  .hero-section{
+    padding: 80px 0;
+    
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(min-width:600px){
+  .hero-section{
+    background-size: 140px 100px;
+    padding: 120px 0;
+
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media(min-width:765px){
+  .hero-section{
+    background-image: url('./assests//Images/Rectangle\ 3.png');
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(min-width:1000px){
+  .hero-section{
+    background-image: url('./assests//Images/Rectangle\ 3.png');
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px 0;
+
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.mw1240 {
+  width: 90%;
+  max-width: 1240px;
+}
+.text-blue {
+  color: #0086b0 !important;
+}
+.border-blue {
+  border: 1px solid #0086b0 !important;
+}
+.bg-blue {
+  background-color: #0086b0 !important;
+}
+.main-footer {
+  background-color: #292929 !important;
+}
+form img {
+  top: -10px;
+  left: 2%;
+}
+.try-it{
+  background-image: url('./assests/Images/Rectangle\ 38.png');
+}
+ input:focus{
+  outline: none !important;
+
 }
